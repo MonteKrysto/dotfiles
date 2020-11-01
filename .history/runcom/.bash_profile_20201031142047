@@ -1,0 +1,4 @@
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+alias "git cdiff"="!if() { git diff $1^ $1; }; f"
+
+export PATH="$HOME/.cargo/bin:$PATH"
